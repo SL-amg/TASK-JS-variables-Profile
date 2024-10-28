@@ -49,24 +49,26 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
-stars = stars + 1 ; 
+stars = stars + 1 ; // or we can use star++
   console.log(stars);
 
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
- stars--;
+ stars-- ; // or we can use stars = stars - 1;
   console.log(stars);
 }
 
 function incrementBy2() {
 stars = stars + 2 ;
+//stars++;
+//stars++; we can use these two to add 2 each time function called since from top to bottom exced.
   console.log(stars);
   
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
-  stars--;
+  stars--; // or we can use stars = stars - 2 once;
   stars--;
     console.log(stars);
   
