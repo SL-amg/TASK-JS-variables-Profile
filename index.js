@@ -49,7 +49,7 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
- stars++;
+stars = stars + 1 ; 
   console.log(stars);
 
 }
@@ -60,8 +60,7 @@ function decrementBy1() {
 }
 
 function incrementBy2() {
-stars++;
-stars++;
+stars = stars + 2 ;
   console.log(stars);
   
 }
